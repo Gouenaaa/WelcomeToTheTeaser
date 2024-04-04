@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    height: calc(100vh - 4rem);
+}
+
+body {
+    background: #F6F3EF;
+    height: calc(100vh - 4rem);
+}
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 4rem);
+    margin-top: 4rem;
+    background: #F6F3EF;
+}
+
+.h-\[calc\(100vh-4rem\)\]{
+    height: calc(100vh - 4rem);
+}
+
+textarea::-webkit-scrollbar {
+    width: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #10b981;
+    border-radius: 20px;
+}
+
+.AppAdmin{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F3EF;
+    display: flex;
+}
